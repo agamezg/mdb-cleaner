@@ -8,6 +8,7 @@ import java.util.List;
 
 @Service
 public class MongoConfig {
+
     @Value("${mongodb.host}")
     private String host;
     @Value("${mongodb.port}")
